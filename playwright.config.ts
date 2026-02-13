@@ -19,6 +19,20 @@ const projects = [
         },
       ]
     : []),
+  {
+    name: "desktop-1920",
+    use: { viewport: { width: 1920, height: 1080 } },
+  },
+  {
+    name: "tablet-768",
+    use: { viewport: { width: 768, height: 1024 } },
+  },
+  {
+    name: "mobile-390",
+    use: {
+      ...devices["iPhone 13"],
+    },
+  },
 ];
 
 /**
@@ -52,10 +66,7 @@ export default defineConfig({
     /* Collect trace when retrying the failed test. See https://playwright.dev/docs/trace-viewer */
     trace: "on-first-retry",
     screenshot: "on",
-    video: {
-      mode: "on",
-      size: { width: 640, height: 480 },
-    },
+    video: "on",
   },
 
   /* Configure projects for major browsers */
