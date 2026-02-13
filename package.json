@@ -1,0 +1,23 @@
+{
+  "name": "playwright-sandbox",
+  "version": "1.0.0",
+  "description": "playwrightで遊んでみたい",
+  "main": "index.js",
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/stoneream/playwright-sandbox.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/stoneream/playwright-sandbox/issues"
+  },
+  "homepage": "https://github.com/stoneream/playwright-sandbox#readme",
+  "devDependencies": {
+    "@playwright/test": "^1.58.2",
+    "@types/node": "^25.2.3"
+  }
+}
