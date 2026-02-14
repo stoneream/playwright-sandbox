@@ -90,3 +90,7 @@ tbd
 ログインしているユーザーとしていないユーザーの挙動をチェックしたい場合に毎回ログインするのは流石に面倒臭いので、 Test Hookあたりで一発目ログインしたら、そのセッション情報を保存しておいて、以降のテストで使い回すと良さそう、みたいなことを考えているが実現ができるか不明。
 
 - https://playwright.dev/docs/auth?utm_source=chatgpt.com
+
+## todo
+
+- linter/formatterの導入
