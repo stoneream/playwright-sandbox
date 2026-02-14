@@ -19,4 +19,10 @@ test.describe("navigation", () => {
       page.getByRole("heading", { name: "Installation" }),
     ).toBeVisible();
   });
+
+  test("visual snapshot", async ({ page }) => {
+    await expect(page).toHaveScreenshot({
+      fullPage: true,
+    });
+  });
 });
